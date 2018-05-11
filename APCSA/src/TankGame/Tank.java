@@ -31,10 +31,14 @@ public class Tank extends MovingThing
 		speed=s;
 		try
 		{
-			imageUp = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\tankUp.png"));
-			imageDown = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\tankDown.png"));
-			imageLeft = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\tankLeft.png"));
-			imageRight = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\tankRight.png"));
+			//imageUp = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\tankUp.png"));
+			imageUp = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\APCSAGit\\APCSA\\src\\TankGame\\tankUp.png"));
+			//imageDown = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\tankDown.png"));
+			imageDown = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\APCSAGit\\APCSA\\src\\TankGame\\tankDown.png"));
+			//imageLeft = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\tankLeft.png"));
+			imageLeft = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\APCSAGit\\APCSA\\src\\TankGame\\tankLeft.png"));
+			//imageRight = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\tankRight.png"));
+			imageRight = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\APCSAGit\\APCSA\\src\\TankGame\\tankRight.png"));
 		}
 		catch(Exception e)
 		{
