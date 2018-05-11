@@ -27,7 +27,7 @@ public class Building extends MovingThing
 		speed=s;
 		try
 		{
-			image = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\VidhurWorkspace\\building.png"));
+			image = ImageIO.read(new File("\\Users\\raveendranv4629\\Desktop\\APCSAGit\\APCSA\\src\\TankGame\\building.png"));
 		}
 		catch(Exception e)
 		{
